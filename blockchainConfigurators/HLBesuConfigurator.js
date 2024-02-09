@@ -55,4 +55,4 @@ class NetworkConfigurator {
   }
 }
 
-module.exports = NetworkConfigurator;
+module.exports = HLBesuConfigurator;

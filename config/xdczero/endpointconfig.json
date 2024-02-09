@@ -1,0 +1,5 @@
+{
+    "networkName": "XDC Zero Testnet",
+    "rpcUrl": "https://rpc.xdczero.net",
+    "chainId": 51
+  }

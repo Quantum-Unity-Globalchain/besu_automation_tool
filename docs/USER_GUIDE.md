@@ -67,6 +67,18 @@ This section guides you through the process of configuring and deploying contrac
 
 Refer to the `README.md` for additional details on XDC Zero integration.
 
+## Multi-Blockchain Support
+
+The tool now supports configuration for multiple blockchain networks, including Hyperledger Besu and XDC Zero. This allows for seamless setup and management of various blockchain infrastructures.
+
+### Supported Blockchains
+
+- Hyperledger Besu
+- XDC Zero
+- More to come
+
+For detailed instructions on configuring each supported blockchain, please refer to the respective sections in the [USER_GUIDE.md](docs/USER_GUIDE.md).
+
 ## Feedback and Support
 
 - If you encounter any issues or have feature requests, please use the `feedbackMechanism.js` script to submit your feedback.

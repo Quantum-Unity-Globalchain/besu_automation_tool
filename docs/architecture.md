@@ -68,3 +68,45 @@ The tool is composed of several modular components, each responsible for a speci
 8. **Feedback and Iteration:** Users provide feedback through `feedbackMechanism.js`, which is used for continuous improvement.
 
 This architecture ensures a modular, scalable, and user-friendly tool for deploying and managing Hyperledger Besu networks efficiently.
+
+## Multi-Blockchain Support
+
+The tool now supports configuration for multiple blockchain networks, including Hyperledger Besu and XDC Zero. This allows for seamless setup and management of various blockchain infrastructures.
+
+### Supported Blockchains
+
+- Hyperledger Besu
+- XDC Zero
+- More to come
+
+For detailed instructions on configuring each supported blockchain, please refer to the respective sections in the [USER_GUIDE.md](docs/USER_GUIDE.md).
+
+## Multi-Blockchain Configuration Guide
+
+This guide provides instructions for configuring different blockchain networks using our tool.
+
+### Hyperledger Besu Configuration
+
+Follow the steps outlined in the Hyperledger Besu section to configure your Besu network.
+
+### XDC Zero Configuration
+
+Refer to the XDC Zero section for detailed steps on setting up and deploying contracts on the XDC Zero network.
+
+### Adding New Blockchains
+
+To add support for a new blockchain, create the necessary configuration and script files in the designated directories and update this guide accordingly.
+
+## Multi-Blockchain Architecture
+
+The tool's architecture is designed to support multiple blockchain configurations. Each blockchain has its own set of configuration files and scripts, allowing for independent setup and management.
+
+### Directory Structure
+
+- `config/`: Contains subdirectories for each supported blockchain with their respective configuration files.
+- `scripts/`: Holds blockchain-specific deployment and management scripts.
+- `blockchainConfigurators/`: Includes configurator classes for each blockchain.
+
+### Extensibility
+
+The architecture is modular, making it easy to add support for new blockchains by adding the necessary configurator class and associated files.

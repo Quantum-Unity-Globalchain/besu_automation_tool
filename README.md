@@ -12,6 +12,18 @@ Welcome to the Hyperledger Besu Automation Tool, a comprehensive solution design
 - **Deployment and Monitoring**: Integrates with Azure Monitor and other tools for real-time monitoring of network health and performance.
 - **Continuous Improvement**: Includes a feedback mechanism for users to report issues or request features.
 
+## Multi-Blockchain Support
+
+The tool now supports configuration for multiple blockchain networks, including Hyperledger Besu and XDC Zero. This allows for seamless setup and management of various blockchain infrastructures.
+
+### Supported Blockchains
+
+- Hyperledger Besu
+- XDC Zero
+- More to come
+
+For detailed instructions on configuring each supported blockchain, please refer to the respective sections in the [USER_GUIDE.md](docs/USER_GUIDE.md).
+
 ## Getting Started
 
 To get started with the Hyperledger Besu Automation Tool, follow these steps:
@@ -57,7 +69,7 @@ For more information on the commands and configurations, visit the [XDC Zero Git
 
 ## Documentation
 
-For detailed information on how to use the Hyperledger Besu Automation Tool, please refer to the [USER_GUIDE.md](USER_GUIDE.md) file. It contains step-by-step instructions for deploying and managing the Hyperledger Besu network using this tool.
+For detailed information on how to use the Hyperledger Besu Automation Tool, please refer to the [USER_GUIDE.md](docs/USER_GUIDE.md) file. It contains step-by-step instructions for deploying and managing the Hyperledger Besu network using this tool.
 
 ## Contributing
 
