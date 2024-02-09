@@ -8,7 +8,11 @@
   "dependencies": {
     "inquirer": "^9.2.14"
   },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
   "scripts": {
-    "config": "node configGenerator.js"
+    "config": "node configGenerator.js",
+    "test": "mocha"
   }
 }
