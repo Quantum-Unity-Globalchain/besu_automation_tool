@@ -1,0 +1,14 @@
+{
+  "name": "Besu_Automation_Tool",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:Quantum-Unity-Globalchain/besu_automation_tool.git",
+  "author": "defiQUG <defi@defi-oracle.io>",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.14"
+  },
+  "scripts": {
+    "config": "node configGenerator.js"
+  }
+}
