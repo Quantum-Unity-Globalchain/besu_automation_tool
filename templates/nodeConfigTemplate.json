@@ -1,0 +1,27 @@
+{
+  "node": {
+    "id": "",
+    "name": "",
+    "role": "validator|bootnode|regular",
+    "consensusMechanism": "IBFT|PoW|Clique",
+    "permissioned": true,
+    "networking": {
+      "ip": "",
+      "port": 30303,
+      "enodeURL": ""
+    },
+    "key": {
+      "publicKey": "",
+      "privateKey": ""
+    },
+    "genesis": {
+      "path": "path/to/genesis/file"
+    },
+    "config": {
+      "dataPath": "path/to/data/directory",
+      "loggingLevel": "INFO|WARN|ERROR|DEBUG",
+      "extraData": "",
+      "gasLimit": "0x47b760"
+    }
+  }
+}
