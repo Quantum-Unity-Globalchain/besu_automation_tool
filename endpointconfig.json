@@ -1,0 +1,28 @@
+{
+    "xdcparentnet": {
+      "endpoint": "https://rpc.xinfin.network",
+      "registers": {
+        "csc": "0x...",
+        "chainId": "50",
+        "endpoint": "https://rpc.xinfin.network"
+      },
+      "applications": {
+        "rid": "1",
+        "rua": "0x...",
+        "sua": "0x..."
+      }
+    },
+    "xdcsubnet": {
+      "endpoint": "https://yourSubnetRPC",
+      "registers": {
+        "csc": "0x...",
+        "chainId": "YourSubnetChainID",
+        "endpoint": "https://yourSubnetRPC"
+      },
+      "applications": {
+        "rid": "50",
+        "rua": "0x...",
+        "sua": "0x..."
+      }
+    }
+  }
