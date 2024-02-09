@@ -6,6 +6,7 @@
   "author": "defiQUG <defi@defi-oracle.io>",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.17.1",
     "inquirer": "^9.2.14"
   },
   "devDependencies": {
