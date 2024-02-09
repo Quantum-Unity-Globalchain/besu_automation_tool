@@ -42,6 +42,19 @@ To get started with the Hyperledger Besu Automation Tool, follow these steps:
 
 Follow the prompts to configure your Hyperledger Besu network. The tool will guide you through the process of generating configuration files, setting up virtual machines, and deploying the network.
 
+## XDC Zero Integration
+
+The tool now supports the configuration and deployment of contracts on the XDC Zero network. This feature allows users to deploy cross-chain contracts seamlessly. For detailed instructions on setting up and deploying with XDC Zero, refer to the `XDCZeroConfigurator.js` script and the configuration files under the `config` directory.
+
+### Getting Started with XDC Zero
+
+1. Ensure all dependencies are installed by running `yarn`.
+2. Configure your network and contract details in `config/endpointconfig.json` and `config/network.config.json`.
+3. Set up your environment variables in the `.env` file.
+4. Run the `XDCZeroConfigurator.js` script to deploy your contracts to the XDC Zero network.
+
+For more information on the commands and configurations, visit the [XDC Zero GitHub](https://github.com/XinFinOrg/XDC-Zero) repository.
+
 ## Documentation
 
 For detailed information on how to use the Hyperledger Besu Automation Tool, please refer to the [USER_GUIDE.md](USER_GUIDE.md) file. It contains step-by-step instructions for deploying and managing the Hyperledger Besu network using this tool.

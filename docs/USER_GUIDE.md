@@ -2,15 +2,13 @@
 
 Welcome to the Hyperledger Besu Automation Tool User Guide. This guide will walk you through the steps to deploy and manage a Hyperledger Besu blockchain network using our tool. The tool simplifies the process by automating configuration file generation, node key management, deployment, and monitoring.
 
-## Getting Started
-
-### Prerequisites
+## Prerequisites for Hyperledger Besu
 
 - Node.js installed on your machine.
 - Visual Studio Code with Azure extensions installed.
 - An Azure account for deploying virtual machines and other resources.
 
-### Installation
+## Installation
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory and run `npm install` to install the required dependencies.
@@ -48,6 +46,26 @@ Welcome to the Hyperledger Besu Automation Tool User Guide. This guide will walk
 
 1. Run the tests located in the `test` directory to validate the functionality of your blockchain network.
 2. The `networkValidationTest.js` and `continuousTestingFramework.js` scripts will help ensure your network operates as expected.
+
+## Prerequisites for XDC Zero
+
+- Node.js and yarn installed.
+
+## Configuring and Deploying with XDC Zero
+
+This section guides you through the process of configuring and deploying contracts on the XDC Zero network using our tool.
+
+### Prerequisites
+
+- An `.env` file configured with necessary environment variables.
+
+### Steps
+
+1. **Environment Setup**: Run `yarn` to install dependencies.
+2. **Configuration**: Modify `config/endpointconfig.json` and `config/network.config.json` according to your network setup.
+3. **Deployment**: Execute `node XDCZeroConfigurator.js` to start the deployment process.
+
+Refer to the `README.md` for additional details on XDC Zero integration.
 
 ## Feedback and Support
 
